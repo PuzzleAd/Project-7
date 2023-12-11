@@ -1,0 +1,416 @@
+/* style body */
+body{
+    width: 100%;
+    height: 100vh;
+    margin: 0;
+    background-image: url(./images/Mid_Left_Line.svg);
+    background-repeat: no-repeat;
+    background-position-x: left;
+    background-position-y: 500px;
+
+}
+/* styles first line div */
+.heading_div{
+    width: 78%;
+    height: 80px;
+    padding-left: 165px;
+    padding-right: 165px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+/* orientiate first line div's texts*/
+.heading_links{
+    display: flex;
+    align-items: center;
+    gap: 33px;
+}
+/* styles first line div's texts  */
+.heading_links > a{
+    color: #837D88;
+    font-family: Karla;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 1.5px;
+    text-decoration: none;
+}
+/* styles first line div's button */
+.heading_links > button {
+    width: 146px;
+    height: 40px;
+    flex-shrink: 0;
+    border: 1.5px solid #2C2830;
+    background: #FFF;
+    color: #2C2830;
+    font-family: Karla;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 1.5px;
+}
+/* styles biggest purple div on the top of the page */
+.biggest_div{
+    width: 100%;
+    height: 600px;
+    background: #2D2641;
+    background-image: url(./images/Top_Right_Lines.png);
+    background-repeat: no-repeat;
+    background-position-x: right;
+    background-position-y: -80px;
+    
+}
+/* styles biggest purple div paddings */
+.padding_div{
+    width: 78%;
+    padding-left: 165px;
+    padding-right: 165px;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 0;
+    padding-top: 105px;
+}
+/* styles rights side image */
+.right_div > image{
+    margin-top: 0;
+}
+/* styles h1 in biggest purple div */
+.right_div > h1{
+    width: 450px;
+    height: 140px;
+    margin-bottom: 0;
+    margin-top: 63px;
+    color: #FFF;
+    font-family: DM Serif Display;
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 64px; /* 88.889% */
+    letter-spacing: -1px;
+}
+/* styles p in biggest purple div */
+.right_div > p{
+    width: 490px;
+    height: 84px;
+    margin-top: 16px;
+    margin-bottom: 0;
+    color: #FFF;
+    font-family: Karla;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px; /* 162.5% */
+}
+/* styles button in biggest purple div */
+.right_div > button{
+    width: 146px;
+    height: 40px;
+    border: 1.5px solid #FFF;
+    background-color: #2D2641;
+    color: #FFF;
+    text-align: center;
+    font-family: Karla;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 1.5px;
+    margin-top: 24px;
+}
+/* styles icons' big div */
+.icon_div{
+    width: 78%;
+    margin-left: 165px;
+    margin-right: 165px;
+    padding: 0;
+    margin-top: 305px;
+
+}
+/* styles icon div heading */
+.icon_div_heading > h1{
+    width: 717px;
+    height: 64px;
+    margin-top: 63px;
+    margin-bottom: 0;
+    color: #2C2830;
+    font-family: DM Serif Display;
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 64px; /* 88.889% */
+    letter-spacing: -1px;
+}
+/* style three-sided div */
+.icon_div_all_icons{
+    margin-top: 96px;
+    display: flex;
+    justify-content: space-between;
+}
+/* styles heading in three-sided div */
+.icon_div_lightning > h2{
+    width: 350px;
+    height: 38px;
+    margin-top: 32px;
+    margin-bottom: 0;
+    color: #2C2830;
+    font-family: DM Serif Display;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -0.389px;
+}
+/* styles paragraph in three-sided div */
+.icon_div_lightning > p{
+    width: 300px;
+    height: 78px;
+    margin-top: 10px;
+    margin-bottom: 0;
+    color: #837D88;
+    font-family: Karla;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px; /* 162.5% */
+}
+.icon_div_coin > h2{
+    width: 350px;
+    height: 38px;
+    margin-bottom: 0;
+    margin-top: 32px;
+    color: #2C2830;
+    font-family: DM Serif Display;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -0.389px;
+}
+.icon_div_coin > p{
+    width: 320px;
+    height: 78px;
+    margin-top: 10px;
+    margin-bottom: 0;
+    color: #837D88;
+    font-family: Karla;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px; /* 162.5% */
+
+}
+.icon_div_profile > h2{
+    width: 350px;
+    height: 38px;
+    margin-top: 32px;
+    margin-bottom: 0;
+    color: #2C2830;
+    font-family: DM Serif Display;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -0.389px;
+}
+.icon_div_profile > p{
+    width: 310px;
+    height: 78px;
+    margin-top: 10px;
+    margin-bottom: 0;
+    color: #837D88;
+    font-family: Karla;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px; /* 162.5% */
+}
+/* styles and oriantiates smaller purple div bottom side of the page */
+.find_out_div{
+    width: 78%;
+    height: 250px;
+    margin-top: 158px;
+    background: #2D2641;
+    background-image: url(./images/Mid_Right_Line.svg);
+    background-repeat: no-repeat;
+    background-position-x: right;
+    margin-left: 165px;
+    margin-right: 165px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+/* styles heading in smaller purple div */
+.text_div > h1{
+    margin-left: 81px;
+    width: 435px;
+    color: #FFF;
+    font-family: DM Serif Display;
+    font-size: 56px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 56px; /* 100% */
+    letter-spacing: -0.778px;
+}
+/* styles button in smaller purple div */
+.button_div > button{
+    margin-right: 80px;
+    width: 160px;
+    height: 40px;
+    border: 1.5px solid #FFF;
+    color: #2C2830;
+    text-align: center;
+    font-family: Karla;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 1.5px;
+}
+/* styles and oriantiatsbottom gray container */
+.bottom_container{
+    width: 100%;
+    margin-top: 150px;
+    background-color: #FAFAFA;
+    background-image: url(./images/Bottom_Line.svg);
+    background-repeat: no-repeat;
+    background-position-x: left;
+}
+/* makes paddings for gray div */
+.bottom_container_padding_div{
+    width: 78%;
+    margin-left: 165px;
+    margin-right: 165px;
+}
+/* styles heading in the gray container */
+.bottom_container_heading{
+    height: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+/* oriantiates rectangle in the gray container  */
+.bottom_container_rectangle{
+    display: flex;
+    justify-content: center;
+}
+/* oriantiates lists in the gray container */
+.bottom_container_lists{
+    margin: 0;
+    padding-top: 48px;
+    padding-bottom: 64px;
+    display: flex;
+    gap: 30px;
+}
+/* styles paragraphs in the lists */
+.bottom_container_first_text > p{
+    width: 255px;
+    color: #837D88;
+    font-family: Karla;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 1.5px;
+    margin-bottom: 36px;
+}
+/* oriantiates lists(with paddings */
+.bottom_container_first_text > ul {
+    padding: 0;
+}
+/* styles lists paragraphs */
+.bottom_container_first_text > ul > li{
+    margin-top: 16px;
+    list-style: none;;
+    width: 255px;
+    color: #2D2641;
+    font-family: Karla;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 1.5px;
+}
+/* same for the secont list */
+.bottom_container_second_text > p{
+    width: 255px;
+    color: #837D88;
+    font-family: Karla;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 1.5px;
+    margin-bottom: 36px;
+}
+.bottom_container_second_text > ul{
+    padding: 0;
+}
+.bottom_container_second_text > ul > li{
+    margin-top: 16px;
+    list-style: none;;
+    width: 255px;
+    color: #2D2641;
+    font-family: Karla;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 1.5px;
+}
+/* same for the third list */
+.bottom_container_third_text > p{
+    width: 255px;
+    color: #837D88;
+    font-family: Karla;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 1.5px;
+    margin-bottom: 36px;
+}
+.bottom_container_third_text > ul{
+    padding: 0;
+}
+.bottom_container_third_text > ul > li{
+    margin-top: 16px;
+    list-style: none;;
+    width: 255px;
+    color: #2D2641;
+    font-family: Karla;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 1.5px;
+}
+/* same for the fourth list */
+.bottom_container_fourth_text > p{
+    width: 255px;
+    color: #837D88;
+    font-family: Karla;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 1.5px;
+    margin-bottom: 36px;
+}
+.bottom_container_fourth_text > ul{
+    padding: 0;
+}
+.bottom_container_fourth_text > ul > li{
+    margin-top: 16px;
+    list-style: none;;
+    width: 255px;
+    color: #2D2641;
+    font-family: Karla;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 1.5px;
+}
